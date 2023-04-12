@@ -1,0 +1,73 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-04-12T13:30:12.300Z",
+  "__export_source": "insomnia.desktop.app:v2022.3.0",
+  "resources": [
+    {
+      "_id": "req_32569baccc94450ca0ac633ad9b2e9ef",
+      "parentId": "wrk_1bcbd8b48e68401a8cd270edc752a654",
+      "modified": 1681283071464,
+      "created": 1681283071464,
+      "url": "http://localhost:3000/issue/basic",
+      "name": "Issue Basic Credential",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"mehmet\",\n  \"did\":\"did:ethr:bageth:0xf3beac30c498d9e26865f34fcaa57dbb935b0d74\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_ff09d50b53c14bc8ae52d1b1c47a81ba"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1681283071464,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_1bcbd8b48e68401a8cd270edc752a654",
+      "parentId": null,
+      "modified": 1681283059805,
+      "created": 1681283059805,
+      "name": "bag-issuer",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_7564d8d192f5779d9a83529dac58fc0c746c9d25",
+      "parentId": "wrk_1bcbd8b48e68401a8cd270edc752a654",
+      "modified": 1681283059832,
+      "created": 1681283059832,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1681283059832,
+      "_type": "environment"
+    },
+    {
+      "_id": "spc_225f60b9aa334b2aa8d318073cea11bc",
+      "parentId": "wrk_1bcbd8b48e68401a8cd270edc752a654",
+      "modified": 1681283059821,
+      "created": 1681283059821,
+      "fileName": "bag-issuer",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
